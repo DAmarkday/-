@@ -1,0 +1,51 @@
+/* pages/share/share.wxss */
+.images{
+  width: 99rpx;
+  height: 120rpx;
+  margin: 10rpx
+}
+.information{
+  border: solid 1px #0000000e;
+  margin: 20rpx;
+}
+.title{
+  border: solid 1px #0000000e;
+  margin: 20rpx;
+  font-size:16px;
+}
+.describe{
+  width: 100%;
+   font-size:14px;
+}
+.share{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+
+}
+.add{
+  width: 100rpx;
+  height: 100rpx;
+  border: solid 1px #0000000e;
+}
+.row_image{
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx
+}
+.radio-group{
+margin: 20rpx auto;
+}
+.radiog{
+  margin: 20rpx;
+  font-size:14px;
+}
+.radio{
+  margin: 0rpx 10rpx;
+}
+.size{
+  margin: 10rpx 5rpx;
+}
+

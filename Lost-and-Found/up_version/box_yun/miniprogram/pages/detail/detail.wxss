@@ -1,0 +1,59 @@
+/* pages/detail/detail.wxss */
+
+.detaildescrible{
+  display: flex;
+  direction: row;
+  height: auto;
+  margin: 0rpx 20rpx;
+}
+.time {
+  font-size: 20rpx;
+  color: #b3b3b3;
+  margin-top: 20rpx;
+}
+
+.imagefont {
+  color: #b3b3b3;
+  font-size: 30rpx;
+  margin: 10rpx 0rpx;
+}
+
+.detaildescription {
+  color: #b3b3b3;
+  font-size: 30rpx;
+  width: 150rpx;
+}
+.description{
+  margin: 0rpx 20rpx;
+  font-size: 31rpx;
+  color: black;
+  width: 500rpx;
+}
+.out {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+}
+
+.head {
+  border-bottom: solid 3rpx #b3b3b3;
+  margin: 10rpx 20rpx 0rpx 20rpx;
+}
+.lost-images{
+  height: 200rpx;
+  width: 30%;
+}
+.imagedescrible{
+  border-bottom: solid 3rpx #b3b3b3;
+  margin: 20rpx 20rpx;
+ 
+}
+.texta{
+
+  width: 500rpx;
+  margin-right: 10rpx;
+  word-break:break-all;   /* 自动换行 */
+  
+}

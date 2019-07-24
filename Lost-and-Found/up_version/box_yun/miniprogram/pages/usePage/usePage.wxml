@@ -1,0 +1,23 @@
+<view style='height:35rpx;width:auto;background:white;'></view>
+  <view class='detail' wx:for="{{inforx}}" bindtap='detail' data-src='{{item.time}}'>
+    <view class='top'>
+      <image src="{{item.userReceiverHeadPicture}}" class='de-image' mode='aspectFill'></image>
+      <text class='title'>{{item.userReceiveName}}</text>
+    </view>
+    <view class='font_images'>
+      <view class='describe'>
+        <text>{{item.title}}</text>
+      </view>
+      <view class='describe_image'>
+        <image class='lost-images' src='{{item.image}}' mode='aspectFill' data-src='{{item.image}}'></image>
+      </view>
+      <view class='time'>{{item.time}}</view>
+      
+    </view>
+ <view class="view_space"></view>
+  <view>
+        <loading hidden="{{hiddenx}}">
+            加载中...
+        </loading>
+    </view>
+  </view>
